@@ -11,12 +11,50 @@
    ========================================================================== */
 
 
+
+
+
+body, html {
+    height: 100%;
+}
+
+
+
+
+
+/*#merrick-name-text {
+    width: 90%; 
+    height: 90%;
+}
+
+
+
+@media (min-width: 700px) {
+
+    #merrick-name-text {
+        width: 30%; 
+        height: 30%;
+    }
+
+}
+*/
+
+
+#merrick-face {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+
+
 #merrick_brand {
     text-align: center;
 }
 
 #merrick_bio_text {
     font-weight: lighter;
+    font-size: 1.5em;
 }
 
 #merrick_links {
@@ -42,10 +80,33 @@
     z-index: -1;
     position: relative;
     z-index: 1;
-    min-height:900px; 
+    min-height:100px; 
     background-color: rgba(238, 233, 233, 1);
     height: 100%;
 
+}
+
+
+
+#merrick_name{
+    padding-top: 5%;
+}
+
+#merrick_jumbo {
+    background-color: white;
+    border-bottom: 1px solid white;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    min-height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#main-content {
 }
 
 
@@ -241,81 +302,3 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request: h5bp.com/r
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
