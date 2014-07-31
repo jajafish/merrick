@@ -1,11 +1,30 @@
-$(window).scroll(function () {
+( function( $ ) {
+    
 
-    var $this = $(this);
-
-    if ($(body).scrollTop() > 600) {
-
-        $('#group_of_songs').css("padding-top", "10px";
-
+    $window = $(window);
+    $slide = $('.homeSlide');
+    $body = $('body');
+    
+    
+    function adjustWindow(){
+        
+        // Init Skrollr
+        
+        
+        // Get window size
+        winH = $window.height();
+        
+        // Keep minimum height 550
+        if(winH <= 550) {
+            winH = 550;
+        } 
+        
+        // Resize our slides
+        $slide.height(winH);
+        
+        // Refresh Skrollr after resizing our sections
+        
+        
     }
-
-}); 
+        
+} )( jQuery );

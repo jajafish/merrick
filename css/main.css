@@ -119,18 +119,21 @@ h2.nav-option {
 
 #group_of_songs {
     padding-top: 440px;
-    margin-left: -120px;
+    margin-left: -40px;
 }
 
 
 
 .song_panel {
     border-radius: 0px;
+    background-color: black;
+    opacity: 0.3;
+    border: 1px solid black;
 }
 
 .song_panel a {
     font-size: 30px;
-    color: black;
+    color: white;
     font-weight: lighter;
 }
 
