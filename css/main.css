@@ -40,7 +40,7 @@ h2.nav-option {
 
 
 #name_header {
-    padding-top: 90px;
+    padding-top: 0px;
 }
 
 
@@ -90,9 +90,8 @@ h2.nav-option {
 }
 
 
-
 #merrick_name{
-    padding-top: 5%;
+    padding-top: -100px;
 }
 
 #merrick_jumbo {
@@ -111,9 +110,62 @@ h2.nav-option {
 
 
 
+/*black bar */
+/*.mid-scroll-nav-header
+{
+    height: 134px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+#merrick-mid-scroll-pic {
+    height: 80px;
+    width: 80px;
+}
+
+*/
+
+.merrick-name-section {
+    /*margin-bottom: 30px;*/
+}
+
+
+/* white bar with circle */
+.mid-scroll-nav-header
+{
+    height: 134px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+#merrick-mid-scroll-pic {
+    height: 80px;
+    width: 80px;
+}
+
+#menu-option {
+    margin-top: 20px;
+}
+
+#menu-items-row {
+/*    margin-top: 10px;
+    margin-bottom: 10px;*/
+}
+
+
+.hack-for-jump {
+    height: 134px;
+    background-color: white;
+}
+
 
 .section1 {
-    padding-top: 80px;
+    /*padding-top: 80px;*/
 }
 
 
@@ -139,6 +191,59 @@ h2.nav-option {
 
 
 
+
+
+
+
+
+
+
+#merrick-bio-pic {
+    margin-left: 30px;
+}
+
+#merrick_bio_text {
+    margin-top: 80px;
+    line-height: 4;
+}
+
+
+.merrick-biography {
+    padding-top: 200px;
+}
+
+
+
+
+
+#social-post {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
 
 
 
