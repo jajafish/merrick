@@ -3,22 +3,57 @@ body, html {
 }
 
 
+#nav-boxes {
+    height: 25%;
+}
+
+.nav-box {
+    /*border: 1px solid black;*/
+    height: 100px;
+}
+
+h2.nav-option {
+    text-align: center;
+}
+
+
+.main_nav_options {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-row {
+    text-align: center;
+    width: 100%;
+    padding-top: 100px;
+
+}
+
 #merrick-face {
     margin: 0 auto;
     display: block;
     position: relative;
 }
 
+
+
+
+
+#name_header {
+    padding-top: 90px;
+}
+
+
+
+
 .jumbotron h1 {
     font-size: 90px;
     color: black;
-    text-align: center;
+    /*text-align: center;*/
     margin-bottom: 40px;
 }
 
-#merrick_brand {
-    text-align: center;
-}
+
 
 #merrick_bio_text {
     font-weight: lighter;
@@ -77,9 +112,43 @@ body, html {
 
 
 
+.section1 {
+    padding-top: 80px;
+}
+
+
+#group_of_songs {
+    padding-top: 440px;
+    margin-left: -120px;
+}
 
 
 
+.song_panel {
+    border-radius: 0px;
+}
+
+.song_panel a {
+    font-size: 30px;
+    color: black;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+/* WEB FONTS */
+
+@font-face{ 
+    font-family: 'BebasNeue';
+    src: url('bebasneue/BebasNeue-webfont.eot');
+    src: url('bebasneue/BebasNeue-webfont.eot') format('eot'),
+         url('bebasneue/BebasNeue-webfont.woff') format('woff'),
+         url('bebasneue/BebasNeue-webfont.ttf') format('truetype'),
+         url('bebasneue/BebasNeue-webfont.svg') format('svg');
+}
 
 
 

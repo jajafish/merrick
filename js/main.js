@@ -1,3 +1,11 @@
 $(window).scroll(function () {
-        $('#merrick_jumbo img').attr('src', 'img/merrick_blurry_headshot.jpg');
+
+    var $this = $(this);
+
+    if ($(body).scrollTop() > 600) {
+
+        $('#group_of_songs').css("padding-top", "10px";
+
+    }
+
 }); 
