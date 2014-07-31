@@ -8,7 +8,10 @@
     
     function adjustWindow(){
         
-        // Init Skrollr
+        var s = skrollr.init();
+         
+        // Refresh Skrollr after resizing our sections
+        s.refresh($('.homeSlide'));
         
         
         // Get window size
