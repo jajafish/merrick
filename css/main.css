@@ -110,29 +110,6 @@ h2.nav-option {
 
 
 
-/*black bar */
-/*.mid-scroll-nav-header
-{
-    height: 134px;
-    width: 100%;
-    border: 1px solid black;
-    background-color: black;
-    margin-bottom: 15px;
-}
-
-#merrick-mid-scroll-pic {
-    height: 80px;
-    width: 80px;
-}
-
-*/
-
-.merrick-name-section {
-    /*margin-bottom: 30px;*/
-}
-
-
-/* white bar with circle */
 .mid-scroll-nav-header
 {
     height: 134px;
@@ -153,8 +130,6 @@ h2.nav-option {
     color: black;
     font-weight: lighter;
 }
-
-
 
 
 #merrick-mid-scroll-pic {
@@ -178,12 +153,9 @@ h2.nav-option {
 }
 
 
-.section1 {
-    /*padding-top: 80px;*/
-}
 
 
-
+/* MUSIC SECTION */
 
 .merrick-music-section {
     margin-top: 100px;
@@ -194,12 +166,17 @@ h2.nav-option {
     margin-bottom: 90px;
 }
 
-
+#playButton {
+    position: relative;
+    margin-left: -150px;
+    margin-top: -200px;
+    z-index: -5;
+}
 
 
 
 #group_of_songs {
-    padding-top: 440px;
+    padding-top: -300px;
     margin-left: 50px;
 }
 
@@ -217,8 +194,15 @@ h2.nav-option {
     font-weight: lighter;
 }
 
+#merrick_studio {
+    position: relative;
+    z-index: 1;
+}
 
 
+#tracks {
+    padding-top: -200px;
+}
 
 
 
