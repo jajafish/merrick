@@ -185,6 +185,11 @@ h2.nav-option {
 
 
 
+.merrick-music-section {
+    margin-top: 100px;
+}
+
+
 #merrick-main-music-row {
     margin-bottom: 90px;
 }
@@ -202,9 +207,8 @@ h2.nav-option {
 
 .song_panel {
     border-radius: 0px;
-    background-color: white;
-/*    opacity: 0.3;
-*/    border: 1px solid black;
+    background-color: white; 
+    border: 1px solid black;
 }
 
 .song_panel a {
@@ -256,7 +260,7 @@ h2.nav-option {
 
 
 
-/* centered columns styles */
+/* centered columns styles 
 .row-centered {
     text-align:center;
 }
