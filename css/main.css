@@ -127,9 +127,9 @@ a:visited {
 {
     height: 134px;
     width: 100%;
-    background-color: white;
+    background-color: transparent;
     margin-bottom: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 0px solid black;
     z-index: 1;
 }
 
