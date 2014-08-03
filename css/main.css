@@ -143,12 +143,26 @@ h2.nav-option {
     z-index: 1;
 }
 
+
+.on-nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+.off-nav-link {
+    color: black;
+    font-weight: lighter;
+}
+
+
+
+
 #merrick-mid-scroll-pic {
     height: 80px;
     width: 80px;
 }
 
-#menu-option {
+.menu-option {
     margin-top: 20px;
 }
 
