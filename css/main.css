@@ -201,8 +201,8 @@ a:visited {
     background-color: black; 
     border: 1px solid black;
     width: 607px;
-    margin: 0 auto;
-    margin-left: 0px;
+    margin-top: 10px;
+    margin-left: -90px;
 }
 
 .song_panel a {
