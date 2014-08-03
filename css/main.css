@@ -1,9 +1,10 @@
 body, html {
     height: 100%;
-    max-width: 100%;
-    overflow-x: none;
-    overflow-y: none;
+    /*width: 60%;*/
+    overflow: none;
+
 }
+
 
 #nav-boxes {
     height: 25%;
@@ -196,13 +197,15 @@ a:visited {
 
 .song_panel {
     border-radius: 0px;
-    background-color: white; 
+    background-color: black; 
     border: 1px solid black;
+    width: 607px;
+    margin: 0 auto;
 }
 
 .song_panel a {
     font-size: 40px;
-    color: black;
+    color: white;
     font-weight: lighter;
 }
 
@@ -211,6 +214,9 @@ a:visited {
     z-index: 1;
 }
 
+#tracks {
+    margin-top: -500px;
+}
 
 
 
