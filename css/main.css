@@ -1,7 +1,9 @@
 body, html {
     height: 100%;
+    max-width: 100%;
+    overflow-x: none;
+    overflow-y: none;
 }
-
 
 #nav-boxes {
     height: 25%;
@@ -35,7 +37,17 @@ h2.nav-option {
     position: relative;
 }
 
+a {
+    color: black;
+}
 
+a:hover {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
 
 
 
@@ -199,10 +211,6 @@ h2.nav-option {
     z-index: 1;
 }
 
-
-#tracks {
-    padding-top: -200px;
-}
 
 
 
