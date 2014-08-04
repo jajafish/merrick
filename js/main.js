@@ -1,3 +1,19 @@
+$(document).ready(function(){
+    var image = $("#playButton").children("img");
+    $("#playButton")
+        .mouseover(function() { 
+            var src = "/img/icons/playIconOnHover.png";
+            image.attr("src", src);
+        })
+        .mouseout(function() {
+            var src = "/img/icons/playIcon.png";
+            image.attr("src", src);
+        });
+
+});
+
+
+
 $(window).scroll(function () {
     var $this = $(this);
     if ($this.scrollTop() > 800) {
@@ -29,3 +45,5 @@ $(window).scroll(function () {
         $('#social-menu-option h2').removeClass('off-nav-link');
     }
 }); 
+
+
