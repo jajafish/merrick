@@ -10,6 +10,11 @@ $(document).ready(function(){
             image.attr("src", src);
         });
 
+    if ($('body').hasClass( "loading" ) ) {
+ 
+        console.log('loading');
+ 
+    }
 
 });
 
