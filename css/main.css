@@ -6,11 +6,6 @@ body, html {
     background-color: gray;
 }
 
-.loading{
-    background-image: url("http://giphy.com/embed/OJE1vnBGMAkyk");
-    background-color: blue;
-}
-
 
 #nav-boxes {
     height: 25%;
