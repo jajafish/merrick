@@ -10,6 +10,13 @@ $(document).ready(function(){
             image.attr("src", src);
         });
 
+    var originalContent = $('.myTR td').html();
+    $('.myTR').hover(function() {
+         $('.myTR td').html('<strong>New HTML</strong>');   
+    }, function() {
+         $('.myTR td').html(originalContent); 
+    });
+
 });
 
 
