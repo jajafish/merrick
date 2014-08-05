@@ -12,6 +12,7 @@ window.onload = function() {
 
   $('.song_panel').bind('click', function(e) {
     e.preventDefault();
+    $('body').addClass("loading");
     playSong();
   });
 };
