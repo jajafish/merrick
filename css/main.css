@@ -172,6 +172,13 @@ a:visited {
 
 /* MUSIC SECTION */
 
+
+#soundWave {
+    border: 1px solid red;
+    width: 60%;
+    height: 132px;
+}
+
 .merrick-music-section {
     margin-top: 100px;
 }
