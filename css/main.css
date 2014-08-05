@@ -187,11 +187,19 @@ a:visited {
     z-index: -5;
 }
 
-
+#merricksActualStudioImg {
+    margin-left: 50px;
+}
 
 #bigPlayBackground {
     padding-top: -300px;
-    margin-left: 50px;
+    margin-left: -400px;
+    height: 300px;
+    width: 300px;
+}
+
+#blueDiv {
+    margin-left: 150px;
 }
 
 
@@ -200,7 +208,7 @@ a:visited {
     border-radius: 0px;
     background-color: black; 
     border: 1px solid black;
-    width: 607px;
+    width: 300px;
     margin-top: 10px;
     margin-left: -90px;
 }
@@ -217,9 +225,7 @@ a:visited {
     z-index: 1;
 }
 
-#tracks {
-    margin-top: -500px;
-}
+
 
 
 .albumPromo {
