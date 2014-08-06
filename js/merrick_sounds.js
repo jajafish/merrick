@@ -19,6 +19,8 @@ window.onload = function() {
     $('#merricksActualStudioImg').attr('src', loadingGif);
 
     playSong();
+    window.isSoundPlaying = true;
+    console.log(window.isSoundPlaying);
   });
 };
 

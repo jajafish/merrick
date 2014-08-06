@@ -13,13 +13,23 @@ for (var i = 0; i <= amount; i++){
 }
 
 function onFrame(event){
-      for (var i = 0; i <= amount; i++){
-            var segment = wavePath.segments[i];
+      if (window.isSoundPlaying === true) {
 
-            var sinus = Math.sin(event.time * 3 + i);
+            for (var i = 0; i <= amount; i++){
+                  var segment = wavePath.segments[i];
 
-            segment.point.y = sinus * height + 100;
+                  var sinus = Math.sin(event.time * 3 + i);
+
+                  segment.point.y = sinus * height + 100;
+            }
+
+            wavePath.smooth();
       }
-
-      wavePath.smooth();
 }
+
+if (window.isSoundPlaying === true) {
+
+      console.log("from the soundwave file");
+
+}
+
