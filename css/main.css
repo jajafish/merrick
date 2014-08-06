@@ -201,6 +201,15 @@ a:visited {
 }
 
 
+#currentTrackTitle {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    position: fixed;
+    top: 10%;
+    font-weight: lighter;
+}
+
 .loading
 {
     background-color: black;
