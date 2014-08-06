@@ -6,39 +6,6 @@ body, html {
     background-color: gray;
 }
 
-
-#nav-boxes {
-    height: 25%;
-}
-
-.nav-box {
-    /*border: 1px solid black;*/
-    height: 100px;
-}
-
-h2.nav-option {
-    text-align: center;
-}
-
-
-.main_nav_options {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.header-row {
-    text-align: center;
-    width: 100%;
-    padding-top: 100px;
-
-}
-
-#merrick-face {
-    margin: 0 auto;
-    display: block;
-    position: relative;
-}
-
 a {
     color: black;
 }
@@ -50,6 +17,14 @@ a:hover {
 a:visited {
     color: black;
 }
+
+
+#merrick-face {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
 
 
 
@@ -90,38 +65,13 @@ a:visited {
     display: block;
 }
 
-.site_footer {
-
-    border: 1px solid black;
-    border-bottom: 0px;
-    z-index: -1;
-    position: relative;
-    z-index: 1;
-    min-height:100px; 
-    /*background-color: rgba(238, 233, 233, 1);*/
-    height: 100%;
-
-}
 
 
-#merrick_name{
-    padding-top: -100px;
-}
 
 #merrick_jumbo {
     background-color: white;
-    border-bottom: 1px solid white;
     height: 100%;
-    margin: 0 auto;
 }
-
-.jumbotron {
-    min-height: 100%;
-    margin: 0 auto;
-    display: block;
-
-}
-
 
 
 .mid-scroll-nav-header
@@ -136,36 +86,12 @@ a:visited {
 }
 
 
-.on-nav-link {
-    color: black;
-    font-weight: bold;
-}
-
-.off-nav-link {
-    color: black;
-    font-weight: lighter;
-}
-
 
 #merrick-mid-scroll-pic {
     height: 80px;
     width: 80px;
 }
 
-.menu-option {
-    margin-top: 20px;
-}
-
-#menu-items-row {
-/*    margin-top: 10px;
-    margin-bottom: 10px;*/
-}
-
-
-.hack-for-jump {
-    height: 134px;
-    background-color: white;
-}
 
 
 
@@ -275,37 +201,12 @@ a:visited {
 }
 
 
-
-
-
-
-
-
-/* centered columns styles 
-.row-centered {
-    text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
+.loading
+{
+    background-color: black;
 }
 
 
-
-/* WEB FONTS */
-
-@font-face{ 
-    font-family: 'BebasNeue';
-    src: url('bebasneue/BebasNeue-webfont.eot');
-    src: url('bebasneue/BebasNeue-webfont.eot') format('eot'),
-         url('bebasneue/BebasNeue-webfont.woff') format('woff'),
-         url('bebasneue/BebasNeue-webfont.ttf') format('truetype'),
-         url('bebasneue/BebasNeue-webfont.svg') format('svg');
-}
 
 
 
