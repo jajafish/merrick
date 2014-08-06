@@ -5,7 +5,7 @@ var height = 60;
 var wavePath = new Path({
       strokeColor: [0.8],
       strokeWidth: 20,
-      strokeCap: 'square'
+      strokeCap: 'round'
 });
 
 for (var i = 0; i <= amount; i++){
@@ -20,4 +20,6 @@ function onFrame(event){
 
             segment.point.y = sinus * height + 100;
       }
+
+      wavePath.smooth();
 }
