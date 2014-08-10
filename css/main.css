@@ -29,6 +29,18 @@ a:visited {
 
 #name_header {
     padding-top: 0px;
+
+
+}
+
+
+@media screen and ( max-height: 800px ){
+
+    #name_header {
+        margin-top: -500px;
+
+    }
+
 }
 
 
@@ -125,6 +137,8 @@ a:visited {
 
 #merricksActualStudioImg {
     margin-left: 50px;
+    position: relative;
+    z-index: -1;
 }
 
 #bigPlayBackground {
@@ -135,7 +149,7 @@ a:visited {
 }
 
 #blueDiv {
-    margin-left: 150px;
+    margin-left: 700px;
     margin-top: 100px;
 }
 
@@ -176,8 +190,6 @@ a:visited {
 }
 
 
-
-
 #merrick-bio-pic {
     margin-left: 30px;
 }
@@ -209,13 +221,11 @@ a:visited {
     font-weight: lighter;
 }
 
-
-
 .merrick-mid-scroll-pic {
     margin-left: 70px;
+    position: relative;
+    z-index: 40;
 }
-
-
 
 
 /*                   SPINNER                  */
@@ -225,8 +235,10 @@ a:visited {
   height: 133px;
   background-image: url("/img/logos/merrickSquareFaceCartoon.jpg");
 
-  margin: 100px auto;
+  /*margin: 100px auto;*/
   margin-left: 70px;
+  position: relative;
+  z-index: 40;
   -webkit-animation: rotateplane 1.2s infinite ease-in-out;
   animation: rotateplane 1.2s infinite ease-in-out;
 }
