@@ -9,15 +9,16 @@ window.onload = function() {
     client_id: 'cac82bb56f5d925de0499e607178dd45'
   });
 
+    var removeSpinningAnimation = function(){
+      $('.merrick-mid-scroll-pic').removeClass("spinner");
+    };
+
 
   $('.song_panel').bind('click', function(e) {
     e.preventDefault();
-    $('body').addClass("loading");
+    $('.merrick-mid-scroll-pic').addClass("spinner");
 
-  
-    var loadingGif = "http://38.media.tumblr.com/6a24ed04eb3abeeddec6174a84f22010/tumblr_n9tka96PXV1s2yegdo1_r1_500.gif";
-    $('#merricksActualStudioImg').attr('src', loadingGif);
-    $('#merrick_studio_pic, #tracks').addClass('hidden');
+    setTimeout(removeSpinningAnimation, 2500);
 
 
     playSong();

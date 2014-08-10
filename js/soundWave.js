@@ -13,7 +13,8 @@ for (var i = 0; i <= amount; i++){
 }
 
 function onFrame(event){
-      if (window.isSoundPlaying === true) {
+      
+      var animateSoundWave = function() {
 
             for (var i = 0; i <= amount; i++){
                   var segment = wavePath.segments[i];
@@ -24,6 +25,13 @@ function onFrame(event){
             }
 
             wavePath.smooth();
+
+      };
+
+
+      if (window.isSoundPlaying === true) {
+
+            setTimeout(animateSoundWave, 2500);
       }
 }
 
@@ -32,4 +40,6 @@ if (window.isSoundPlaying === true) {
       console.log("from the soundwave file");
 
 }
+
+
 
