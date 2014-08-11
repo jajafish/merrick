@@ -1,8 +1,11 @@
-function playSong(){
-  SC.stream("/tracks/103512119", function(sound){
+function playSong(sound){
+  SC.stream(sound, function(sound){
     sound.play();
   });
 }
+
+
+
 
 window.onload = function() {
   SC.initialize({
@@ -14,16 +17,48 @@ window.onload = function() {
     };
 
 
-  $('.song_panel').bind('click', function(e) {
-    e.preventDefault();
-    $('.merrick-mid-scroll-pic').addClass("spinner");
+    // PLAY AROUND
 
-    setTimeout(removeSpinningAnimation, 2500);
+    $('#aroundSong').bind('click', function(e){
+      e.preventDefault();
+
+      playSong("/tracks/103026878");
+      window.isSoundPlaying = true;
+
+      $('.merrick-mid-scroll-pic').addClass("spinner");
+
+      setTimeout(removeSpinningAnimation, 2500);
+
+    });
+
+    // PLAY VISION
+
+    $('#visionSong').bind('click', function(e){
+      e.preventDefault();
+
+      playSong("/tracks/103512119");
+      window.isSoundPlaying = true;
+
+      $('.merrick-mid-scroll-pic').addClass("spinner");
+      setTimeout(removeSpinningAnimation, 2500);
+    });
 
 
-    playSong();
-    window.isSoundPlaying = true;
-    console.log(window.isSoundPlaying);
-  });
+    // PLAY 23
+
+    $('#23Song').bind('click', function(e){
+      e.preventDefault();
+      playSong("/tracks/103279817");
+      window.isSoundPlaying = true;
+
+      $('.merrick-mid-scroll-pic').addClass("spinner");
+      setTimeout(removeSpinningAnimation, 2500);
+    });
+
+    
+
 };
+
+
+
 
