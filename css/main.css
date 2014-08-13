@@ -228,6 +228,20 @@ a:visited {
 }
 
 
+/*                 BIO SECTION             */
+
+.bio .container {
+    margin-top: 800px;
+    background-color: rgba(119,136,153,0.4);
+}
+
+.bioText {
+    font-weight: lighter;
+    line-height: 100px;
+}
+
+
+
 /*                   SPINNER                  */
 
 .spinner {
