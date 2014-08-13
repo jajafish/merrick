@@ -14,28 +14,43 @@ window.onload = function() {
       $('.merrick-mid-scroll-pic').removeClass("spinner");
     };
 
-    // PLAY SONG
+      // PLAY AROUND
 
-    $('.song_panel').bind('click', function(e){
+      $('#aroundSong').bind('click', function(e){
+        e.preventDefault();
 
-      e.preventDefault();
-
-      if ($(".song_panel").is("#aroundSong")) {
         playSong("/tracks/103026878");
-      }
+        window.isSoundPlaying = true;
 
-      else if ($('.song_panel').is("#visionSong")) {
+        $('.merrick-mid-scroll-pic').addClass("spinner");
+
+        setTimeout(removeSpinningAnimation, 2500);
+
+      });
+
+      // PLAY VISION
+
+      $('#visionSong').bind('click', function(e){
+        e.preventDefault();
+
         playSong("/tracks/103512119");
-      }
+        window.isSoundPlaying = true;
 
-      else if ($('.song_panel').is("#23Song")) {
+        $('.merrick-mid-scroll-pic').addClass("spinner");
+        setTimeout(removeSpinningAnimation, 2500);
+      });
+
+
+      // PLAY 23
+
+      $('#23Song').bind('click', function(e){
+        e.preventDefault();
         playSong("/tracks/103279817");
-      }
+        window.isSoundPlaying = true;
 
-      window.isSoundPlaying = true;
-
-      $('.merrick-mid-scroll-pic').addClass("spinner");
-      setTimeout(removeSpinningAnimation, 2500);
+        $('.merrick-mid-scroll-pic').addClass("spinner");
+        setTimeout(removeSpinningAnimation, 2500);
+      });
 
 
     });
